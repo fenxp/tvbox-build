@@ -1,11 +1,11 @@
 name: TVBox
 
 on:
-  #schedule:
-  #  - cron: 6 */8 * * *
-  #  push:
-  #    branches:
-  #      - main
+  schedule:
+    - cron: 6 */8 * * *
+  push:
+      branches:
+        - main
   workflow_dispatch:
     inputs:
       rebuild:
